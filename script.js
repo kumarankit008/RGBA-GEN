@@ -1,9 +1,8 @@
 let inputs=document.querySelectorAll(".input");
-<<<<<<< HEAD
+
 let text=document.querySelector(".output");
-=======
-let text=document.querySelector(".output);
->>>>>>> 3c5cb0b941a0201b930279b90f8ef06b62ace2b7
+
+
 function getValue(){
     let red=document.getElementById("red").value;
     let green =document.getElementById("green").value;
