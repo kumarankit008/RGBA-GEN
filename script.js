@@ -1,4 +1,5 @@
-
+let inputs=document.querySelectorAll(".input");
+let text=document.querySelector(".output);
 function getValue(){
     let red=document.getElementById("red").value;
     let green =document.getElementById("green").value;
@@ -14,7 +15,7 @@ function getValue(){
 
 function copy(){
     let element = document.createElement("textarea");
-    element.value=outputBox.textContent;
+    element.value=text.textContent;
     document.body.appendChild(element);
     element.select();
     document.execCommand("copy");
